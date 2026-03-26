@@ -27,7 +27,7 @@ int main()
     {
     case 0:
         printf("程序已退出！\n");
-        return 0; // 直接退出
+        exit(0); // 直接退出
 
     case 1:
         result = num1 + num2;
