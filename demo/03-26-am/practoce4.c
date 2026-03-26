@@ -2,12 +2,10 @@
 
 int main()
 {
-    int mainChoice; // 主菜单选项
-    int subChoice;  // 子菜单选项
+    int mainChoice;
+    int subChoice;
     float a, b, res;
 
-    // ========== 第一层：主菜单 ==========
-    printf("\n===== 主菜单 =====\n");
     printf("1. 进入运算\n");
     printf("0. 退出\n");
     printf("请选择：");
@@ -24,7 +22,6 @@ int main()
         exit(0);
     }
 
-    // ========== 第二层：子菜单（运算） ==========
     printf("\n===== 运算菜单 =====\n");
     printf("1. 加法\n");
     printf("2. 减法\n");
