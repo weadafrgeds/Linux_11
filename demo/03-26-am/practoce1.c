@@ -18,7 +18,7 @@ int main()
         {
             printf("该三角形为等腰三角形");
         }
-        else if (side1 + side2 == side3 || side1 + side3 == side2 || side3 + side2 == side1)
+        else if ((side1 * side1) + (side2 * side2) == (side3 * side3) || (side1 * side1) + (side3 * side3) == (side2 * side2) || (side3 * side3) + (side2 * side2) == (side1 * side1))
         {
             printf("该三角形为直角三角形");
         }
